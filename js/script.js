@@ -148,3 +148,4 @@ document.getElementById("itemsPriority").addEventListener("change", function (ev
     document.getElementById("itemsPriority").value = event.target.value;
     onCancelItem();
 })
+
