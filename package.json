@@ -1,0 +1,35 @@
+{
+  "name": "fe7",
+  "version": "1.0.0",
+  "homepage": "http://olegobiukh.github.io/js-form",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegobiukh/fe7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegobiukh/fe7/issues"
+  },
+  "homepage": "https://github.com/olegobiukh/fe7#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "gh-pages": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-bower": "0.0.15",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "gulp-uglify": "^3.0.2"
+  }
+}
